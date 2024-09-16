@@ -1,2 +1,2 @@
-# KiCad_lib
-KiCad library used at Controlle Innovation Ltda projects
+# KiCad library
+KiCad library used at Controlle Innovation Ltda projects.
