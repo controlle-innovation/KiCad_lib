@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.1 20.2 0)
+		(at 0 20.1 0)
 		(layer "F.SilkS")
 		(uuid "e22b7306-334a-4654-9a48-e8bc2bf171f6")
 		(effects
@@ -63,8 +63,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.8415 -1.8415)
-		(end 41.3385 -1.8415)
+		(start -2 -2)
+		(end 41.5 -2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "77f0a4c4-aa32-43c0-84ea-dad6dbcb4194")
 	)
 	(fp_line
-		(start -1.8415 18.9865)
-		(end -1.8415 -1.8415)
+		(start -2 19.15)
+		(end -2 -2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -83,8 +83,8 @@
 		(uuid "55c74538-6d15-4aea-8845-22a303ab092e")
 	)
 	(fp_line
-		(start 41.3385 -1.8415)
-		(end 41.3385 18.9865)
+		(start 41.5 -2)
+		(end 41.5 19.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -93,14 +93,25 @@
 		(uuid "75cd77a3-3851-4dd6-a8a0-c27cf672ea51")
 	)
 	(fp_line
-		(start 41.3385 18.9865)
-		(end -1.8415 18.9865)
+		(start 41.5 19.15)
+		(end -2 19.15)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "a0e3862d-ec28-4399-a7ab-3d41e1d56d67")
+	)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 42 19.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Margin")
+		(uuid "3a60afb8-baa0-45af-8bef-7be24d055bf5")
 	)
 	(fp_text user "Better under 4.5A - If > 50W need heatsink"
 		(at 20.0025 10.3505 0)
@@ -230,5 +241,60 @@
 		(remove_unused_layers no)
 		(roundrect_rratio 0.08333333333)
 		(uuid "d8b57f1a-22b5-4394-9174-0149053bdcf7")
+	)
+	(model "C:/Controlle/KiCad_lib/3D/1x_Male_Pin_2.54_mm.STEP"
+		(offset
+			(xyz -0.3 0.3 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "C:/Controlle/KiCad_lib/3D/1x_Male_Pin_2.54_mm.STEP"
+		(offset
+			(xyz -0.3 -16.8 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "C:/Controlle/KiCad_lib/3D/1x_Male_Pin_2.54_mm.STEP"
+		(offset
+			(xyz 39.2 0.3 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "C:/Controlle/KiCad_lib/3D/1x_Male_Pin_2.54_mm.STEP"
+		(offset
+			(xyz 39.2 -16.8 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "C:/Controlle/KiCad_lib/3D/XL4005.step"
+		(offset
+			(xyz 19 -13.3 -40.9)
+		)
+		(scale
+			(xyz 0.97 0.92 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
