@@ -652,8 +652,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -1.27 1.27 0)
+		(property "Footprint" "Controlle:ADS1115 Module"
+			(at 1.27 -12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,8 +670,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ADC, 16 bits "
-			(at 0.508 -11.938 0)
+		(property "Description" "ADC, 16-bits, ADS1115 "
+			(at 1.016 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,7 +680,7 @@
 			)
 		)
 		(property "Manufacturer" "OEM"
-			(at -0.254 -17.526 0)
+			(at 0.254 -20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,7 +689,16 @@
 			)
 		)
 		(property "Part Number" "ADS1115 Module"
-			(at -0.508 -14.732 0)
+			(at 0 -17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "ADC 16-bits ADS1115 Module"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,8 +1801,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -10.16 3.81 0)
+		(property "Footprint" "Controlle:RS-485 Module (HW-519)"
+			(at 1.27 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1820,7 @@
 			)
 		)
 		(property "Description" "RS-485 Module"
-			(at -0.254 -9.906 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1829,7 @@
 			)
 		)
 		(property "Manufacturer" "OEM"
-			(at 0.254 -14.732 0)
+			(at 0.508 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +1838,7 @@
 			)
 		)
 		(property "Part Number" "HW-519"
-			(at 0 -12.192 0)
+			(at 0.254 -14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
