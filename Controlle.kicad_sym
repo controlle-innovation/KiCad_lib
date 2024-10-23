@@ -902,38 +902,32 @@
 			)
 		)
 	)
-	(symbol "ESP32-S3-DevKitC-1"
-		(pin_names
-			(offset 1.016)
-		)
+	(symbol "ESP32-S3 DevKit"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -17.526 32.766 0)
+			(at -57.658 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Value" "ESP32-S3-DevKitC-1"
-			(at -9.652 -27.94 0)
+		(property "Value" ""
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Controlle:ESP32-S3-DevKitC-1"
-			(at 0.762 -33.274 0)
+		(property "Footprint" "Controlle:ESP32-S3-AI-S3"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -947,7 +941,7 @@
 			)
 		)
 		(property "Description" "Development Board with ESP32-S3-WROOM-1 MCU"
-			(at 0.254 -35.56 0)
+			(at 1.016 -33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,826 +950,904 @@
 			)
 		)
 		(property "Manufacturer" "Espressif"
-			(at 0.254 -30.48 0)
+			(at 0.254 -30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 0 -1.27 0)
+		(property "Part Number" "ESP32-S3-N16R8"
+			(at 0 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(symbol "ESP32-S3-DevKitC-1_0_0"
+		(symbol "ESP32-S3 DevKit_1_1"
 			(rectangle
-				(start -17.78 30.48)
-				(end 16.51 -25.4)
+				(start -58.42 29.21)
+				(end 60.96 -29.21)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "ESP32-S3-DevKitC-1_1_0"
 			(pin power_in line
-				(at -22.86 29.21 0)
-				(length 5.08)
+				(at -60.96 26.67 0)
+				(length 2.54)
 				(name "3V3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 6.35 0)
-				(length 5.08)
-				(name "17"
+				(at -60.96 3.81 0)
+				(length 2.54)
+				(name "GPIO17/RTC_GPIO17/ADC2_CH6/U1TXD"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 3.81 0)
-				(length 5.08)
-				(name "18"
+				(at -60.96 1.27 0)
+				(length 2.54)
+				(name "GPIO18/RTC_GPIO18/ADC2_CH7/U1RXD"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 1.27 0)
-				(length 5.08)
-				(name "8"
+				(at -60.96 -1.27 0)
+				(length 2.54)
+				(name "GPIO8/RTC_GPIO8/ADC1_CH7/SUBSPICS1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -1.27 0)
-				(length 5.08)
-				(name "3"
+				(at -60.96 -3.81 0)
+				(length 2.54)
+				(name "GPIO3/RTC_GPIO3/ADC1_CH2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -3.81 0)
-				(length 5.08)
-				(name "46"
+				(at -60.96 -6.35 0)
+				(length 2.54)
+				(name "GPIO46"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -6.35 0)
-				(length 5.08)
-				(name "9"
+				(at -60.96 -8.89 0)
+				(length 2.54)
+				(name "GPIO9/RTC_GPIO9/ADC1_CH8/FSPIHD/SUBSPIHD"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -8.89 0)
-				(length 5.08)
-				(name "10"
+				(at -60.96 -11.43 0)
+				(length 2.54)
+				(name "GPIO10/RTC_GPIO10/ADC1_CH9/FSPICS0/FSPIIO4/SUBSPICS0"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -11.43 0)
-				(length 5.08)
-				(name "11"
+				(at -60.96 -13.97 0)
+				(length 2.54)
+				(name "GPIO11/RTC_GPIO11/ADC2_CH0/FSPID/FSPIIO5/SUBSPID"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "17"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -13.97 0)
-				(length 5.08)
-				(name "12"
+				(at -60.96 -16.51 0)
+				(length 2.54)
+				(name "GPIO12/RTC_GPIO12/ADC2_CH1/FSPICLK/FSPIIO6/SUBSPICLK"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "18"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -16.51 0)
-				(length 5.08)
-				(name "13"
+				(at -60.96 -19.05 0)
+				(length 2.54)
+				(name "GPIO13/RTC_GPIO13/ADC2_CH2/FSPIQ/FSPIIO7/SUBSPIQ"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "19"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -22.86 26.67 0)
-				(length 5.08)
+				(at -60.96 24.13 0)
+				(length 2.54)
 				(name "3V3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -19.05 0)
-				(length 5.08)
-				(name "14"
+				(at -60.96 -21.59 0)
+				(length 2.54)
+				(name "GPIO14/RTC_GPIO14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "20"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -22.86 -21.59 0)
-				(length 5.08)
-				(name "5Vin"
+				(at -60.96 -24.13 0)
+				(length 2.54)
+				(name "5V_in"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "21"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -22.86 -24.13 0)
-				(length 5.08)
+				(at -60.96 -26.67 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "22"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 21.59 29.21 180)
-				(length 5.08)
+				(at 63.5 26.67 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "23"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 26.67 180)
-				(length 5.08)
-				(name "TX"
+				(at 63.5 24.13 180)
+				(length 2.54)
+				(name "U0TXD/GPIO43"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "24"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 24.13 180)
-				(length 5.08)
-				(name "RX"
+				(at 63.5 21.59 180)
+				(length 2.54)
+				(name "U0RXD/GPIO44"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "25"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 21.59 180)
-				(length 5.08)
-				(name "1"
+				(at 63.5 19.05 180)
+				(length 2.54)
+				(name "ADC1_CH0/RTC_GPIO1/GPIO1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "26"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 19.05 180)
-				(length 5.08)
-				(name "2"
+				(at 63.5 16.51 180)
+				(length 2.54)
+				(name "ADC1_CH1/RTC_GPIO2/GPIO2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "27"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 16.51 180)
-				(length 5.08)
-				(name "42"
+				(at 63.5 13.97 180)
+				(length 2.54)
+				(name "MTMS/GPIO42"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "28"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 13.97 180)
-				(length 5.08)
-				(name "41"
+				(at 63.5 11.43 180)
+				(length 2.54)
+				(name "MTDI/GPIO41"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "29"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at -22.86 24.13 0)
-				(length 5.08)
+			(pin bidirectional line
+				(at -60.96 21.59 0)
+				(length 2.54)
 				(name "RST"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 11.43 180)
-				(length 5.08)
-				(name "40"
+				(at 63.5 8.89 180)
+				(length 2.54)
+				(name "MTDO/GPIO40"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "30"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 8.89 180)
-				(length 5.08)
-				(name "39"
+				(at 63.5 6.35 180)
+				(length 2.54)
+				(name "SUBSPICS1/MTCK/GPIO39"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "31"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 6.35 180)
-				(length 5.08)
-				(name "38"
+				(at 63.5 3.81 180)
+				(length 2.54)
+				(name "RGB_LED/SUBSPIWP/FSPIWP/GPIO38"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "32"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 3.81 180)
-				(length 5.08)
-				(name "37"
+				(at 63.5 1.27 180)
+				(length 2.54)
+				(name "SUBSPIQ/FSPIQ/SPIDQS/GPIO37"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "33"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 1.27 180)
-				(length 5.08)
-				(name "36"
+				(at 63.5 -1.27 180)
+				(length 2.54)
+				(name "SUBSPICLK/FSPICLK/SPIIO7/GPIO36"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "34"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -1.27 180)
-				(length 5.08)
-				(name "35"
+				(at 63.5 -3.81 180)
+				(length 2.54)
+				(name "SUBSPID/FSPID/SPIIO6/GPIO35"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "35"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -3.81 180)
-				(length 5.08)
-				(name "0"
+				(at 63.5 -6.35 180)
+				(length 2.54)
+				(name "RTC_GPIO0/GPIO0"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "36"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -6.35 180)
-				(length 5.08)
-				(name "45"
+				(at 63.5 -8.89 180)
+				(length 2.54)
+				(name "GPIO45"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "37"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -8.89 180)
-				(length 5.08)
-				(name "48"
+				(at 63.5 -11.43 180)
+				(length 2.54)
+				(name "SUBSPICLK_N_DIFF/SPICLK_N/GPIO48"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "38"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -11.43 180)
-				(length 5.08)
-				(name "47"
+				(at 63.5 -13.97 180)
+				(length 2.54)
+				(name "SUBSPICLK_P_DIFF/SPICLK_P/GPIO47"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "39"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 21.59 0)
-				(length 5.08)
-				(name "4"
+				(at -60.96 19.05 0)
+				(length 2.54)
+				(name "GPIO4/RTC_GPIO4/ADC1_CH3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -13.97 180)
-				(length 5.08)
-				(name "21"
+				(at 63.5 -16.51 180)
+				(length 2.54)
+				(name "RTC_GPIO21/GPIO21"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "40"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -16.51 180)
-				(length 5.08)
-				(name "20"
+				(at 63.5 -19.05 180)
+				(length 2.54)
+				(name "USB_D+/U1CTS/ADC2_CH9/RTC_GPIO20/GPIO20"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "41"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -19.05 180)
-				(length 5.08)
-				(name "19"
+				(at 63.5 -21.59 180)
+				(length 2.54)
+				(name "USB_D-/U1RTS/ADC2_CH8/RTC_GPIO19/GPIO19"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "42"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 21.59 -21.59 180)
-				(length 5.08)
+				(at 63.5 -24.13 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "43"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 21.59 -24.13 180)
-				(length 5.08)
+				(at 63.5 -26.67 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "44"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 19.05 0)
-				(length 5.08)
-				(name "5"
+				(at -60.96 16.51 0)
+				(length 2.54)
+				(name "GPIO5/RTC_GPIO5/ADC1_CH4"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 16.51 0)
-				(length 5.08)
-				(name "6"
+				(at -60.96 13.97 0)
+				(length 2.54)
+				(name "GPIO6/RTC_GPIO6/ADC1_CH5"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 13.97 0)
-				(length 5.08)
-				(name "7"
+				(at -60.96 11.43 0)
+				(length 2.54)
+				(name "GPIO7/RTC_GPIO7/ADC1_CH6"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 11.43 0)
-				(length 5.08)
-				(name "15"
+				(at -60.96 8.89 0)
+				(length 2.54)
+				(name "GPIO15/RTC_GPIO15/ADC2_CH4/U0RTS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 8.89 0)
-				(length 5.08)
-				(name "16"
+				(at -60.96 6.35 0)
+				(length 2.54)
+				(name "GPIO16/RTC_GPIO16/ADC2_CH5/U0CTS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PCB Symbol"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -3.302 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Symbol (defined at footprint)"
+			(at 0.254 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PCB Symbol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PCB Symbol_0_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PCB Symbol_1_1"
+			(text "PCB\nSymbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
