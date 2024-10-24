@@ -85,7 +85,7 @@
 	)
 	(fp_line
 		(start 29.7 -14.95)
-		(end 29.7 13.05)
+		(end 29.7 13.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -126,7 +126,7 @@
 	)
 	(fp_line
 		(start -34.5 13.55)
-		(end 30.25 13.58)
+		(end 30.2 13.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,7 +135,7 @@
 		(uuid "7a38ccaf-bb8b-4582-944b-3ac2cb1e94cf")
 	)
 	(fp_line
-		(start 30.2 -15.5)
+		(start 30.2 -15.45)
 		(end -34.5 -15.45)
 		(stroke
 			(width 0.05)
@@ -176,7 +176,7 @@
 	)
 	(fp_line
 		(start 29.7 -14.95)
-		(end 29.7 13.05)
+		(end 29.7 13.2)
 		(stroke
 			(width 0.127)
 			(type solid)
